@@ -22,11 +22,9 @@ int main(){
 	cout.precision(4);
 
 	// AMBIL NILAI MAX TIAP KRITERIA
-	mc1=max(a1c1,max(a2c1,a3c1));
-	mc2=max(a1c2,max(a2c2,a3c2));
-	mc3=max(a1c3,max(a2c3,a3c3));
-	mc4=max(a1c4,max(a2c4,a3c4));
-	mc5=max(a1c5,max(a2c5,a3c5));
+	for(x=0; x<5; x++) {
+		arrayM[x] = max(array[0][x], max(array[1][x],array[2][x]));
+	}
 
 	// BUAT MATRIKS R
 	Ra1c1 = (a1c1/mc1);
