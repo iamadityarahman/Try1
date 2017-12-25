@@ -68,10 +68,8 @@ int main(){
 	cout << endl;
 
 	cout << "MATRIKS R * W :"<<endl;
-	cout << RWa1c1 <<" | "<<RWa1c2<<" | "<<RWa1c3<<" | "<<RWa1c4<<" | "<<RWa1c5<<endl;
-	cout << RWa2c1 <<" | "<<RWa2c2<<" | "<<RWa2c3<<" | "<<RWa2c4<<" | "<<RWa2c5<<endl;
-	cout << RWa3c1 <<" | "<<RWa3c2<<" | "<<RWa3c3<<" | "<<RWa3c4<<" | "<<RWa3c5<<endl;
-	cout << endl;
+	tampilMatrix3x5(matrixRxW);
+
 	cout << "HASIL AKHIR  :"<<endl;
 	cout << "Nilai A1 : "<<ha1<<endl;
 	cout << "Nilai A2 : "<<ha2<<endl;
