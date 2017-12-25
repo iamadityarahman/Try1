@@ -2,6 +2,15 @@
 #include <cmath>
 using namespace std;
 
+void tampilMatrix3x5(double array[3][5]) {
+	for(int x=0; x<3; x++) {
+		cout << array[x][0];
+		for(int y=1; y<5; y++) {
+			cout << " | " << array[x][y];
+		} cout << endl;
+	} cout << endl;
+}
+
 int main(){
 	// DEKLARASI VARIABEL, ARRAY DAN ISI DATA
 	int x,y;
@@ -48,11 +57,9 @@ int main(){
 	}
 
 	// MENAMPILKAN NILAI
-	cout << "MATRIKS X :"<<endl;
-	cout << a1c1 <<" | "<<a1c2<<" | "<<a1c3<<" | "<<a1c4<<" | "<<a1c5<<endl;
-	cout << a2c1 <<" | "<<a2c2<<" | "<<a2c3<<" | "<<a2c4<<" | "<<a2c5<<endl;
-	cout << a3c1 <<" | "<<a3c2<<" | "<<a3c3<<" | "<<a3c4<<" | "<<a3c5<<endl;
-	cout << endl;
+	cout << "MATRIKS X :" << endl;
+	tampilMatrix3x5(array);
+
 	cout << "MATRIKS R :"<<endl;
 	cout << Ra1c1 <<" | "<<Ra1c2<<" | "<<Ra1c3<<" | "<<Ra1c4<<" | "<<Ra1c5<<endl;
 	cout << Ra2c1 <<" | "<<Ra2c2<<" | "<<Ra2c3<<" | "<<Ra2c4<<" | "<<Ra2c5<<endl;
