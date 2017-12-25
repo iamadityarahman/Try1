@@ -64,8 +64,9 @@ int main(){
 	tampilMatrix3x5(matrixR);
 
 	cout << "BOBOT W :"<<endl;
-	cout << w1 <<" | "<<w2<<" | "<<w3<<" | "<<w4<<" | "<<w5<<endl;
+	cout << arrayW[0] << " | " << arrayW[1] << " | " << arrayW[2] << " | " << arrayW[3] << " | " << arrayW[4] << endl;
 	cout << endl;
+
 	cout << "MATRIKS R * W :"<<endl;
 	cout << RWa1c1 <<" | "<<RWa1c2<<" | "<<RWa1c3<<" | "<<RWa1c4<<" | "<<RWa1c5<<endl;
 	cout << RWa2c1 <<" | "<<RWa2c2<<" | "<<RWa2c3<<" | "<<RWa2c4<<" | "<<RWa2c5<<endl;
