@@ -71,7 +71,7 @@ int main(){
 	tampilMatrix3x5(matrixRxW);
 
 	cout << "HASIL AKHIR  :"<<endl;
-	cout << "Nilai A1 : "<<ha1<<endl;
-	cout << "Nilai A2 : "<<ha2<<endl;
-	cout << "Nilai A3 : "<<ha3<<endl;
+	for(x=0; x<3; x++) {
+		cout << "Nilai A" << x+1 << " : " << arrayH[x] << endl;
+	}
 }
