@@ -61,10 +61,8 @@ int main(){
 	tampilMatrix3x5(array);
 
 	cout << "MATRIKS R :"<<endl;
-	cout << Ra1c1 <<" | "<<Ra1c2<<" | "<<Ra1c3<<" | "<<Ra1c4<<" | "<<Ra1c5<<endl;
-	cout << Ra2c1 <<" | "<<Ra2c2<<" | "<<Ra2c3<<" | "<<Ra2c4<<" | "<<Ra2c5<<endl;
-	cout << Ra3c1 <<" | "<<Ra3c2<<" | "<<Ra3c3<<" | "<<Ra3c4<<" | "<<Ra3c5<<endl;
-	cout << endl;
+	tampilMatrix3x5(matrixR);
+
 	cout << "BOBOT W :"<<endl;
 	cout << w1 <<" | "<<w2<<" | "<<w3<<" | "<<w4<<" | "<<w5<<endl;
 	cout << endl;
